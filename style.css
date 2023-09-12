@@ -44,7 +44,7 @@ form{
 }
 
 .g-recaptcha{
-    margin: 15px;
+    margin-top: 15px;
     justify-content: center;
     display: flex;
 }
