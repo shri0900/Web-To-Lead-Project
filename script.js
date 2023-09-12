@@ -11,7 +11,8 @@ function beforesubmit(event){
         console.log(formatteddate.value);
         outputdate.value=formatteddate;
     }else{
-        alert('Please Complete Recaptcha Challenge First To Submit Your Form')
+        alert('Please Complete Recaptcha Challenge First To Submit Your Form');
+        event.preventDefault();
     }
 }
 
